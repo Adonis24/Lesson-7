@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		01495A8921C1934C00AB9499 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01495A8821C1934C00AB9499 /* main.swift */; };
+		01495A9121C193DA00AB9499 /* enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01495A9021C193DA00AB9499 /* enums.swift */; };
+		01495A9321C1941100AB9499 /* protocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01495A9221C1941100AB9499 /* protocols.swift */; };
+		01495A9521C1945000AB9499 /* sportCar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01495A9421C1945000AB9499 /* sportCar.swift */; };
+		01495A9721C1948700AB9499 /* trunkCar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01495A9621C1948700AB9499 /* trunkCar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +29,10 @@
 /* Begin PBXFileReference section */
 		01495A8521C1934C00AB9499 /* Lesson-7 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Lesson-7"; sourceTree = BUILT_PRODUCTS_DIR; };
 		01495A8821C1934C00AB9499 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		01495A9021C193DA00AB9499 /* enums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = enums.swift; sourceTree = "<group>"; };
+		01495A9221C1941100AB9499 /* protocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = protocols.swift; sourceTree = "<group>"; };
+		01495A9421C1945000AB9499 /* sportCar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sportCar.swift; sourceTree = "<group>"; };
+		01495A9621C1948700AB9499 /* trunkCar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = trunkCar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +65,21 @@
 		01495A8721C1934C00AB9499 /* Lesson-7 */ = {
 			isa = PBXGroup;
 			children = (
+				01495A8F21C193B800AB9499 /* Models */,
 				01495A8821C1934C00AB9499 /* main.swift */,
 			);
 			path = "Lesson-7";
+			sourceTree = "<group>";
+		};
+		01495A8F21C193B800AB9499 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				01495A9221C1941100AB9499 /* protocols.swift */,
+				01495A9021C193DA00AB9499 /* enums.swift */,
+				01495A9421C1945000AB9499 /* sportCar.swift */,
+				01495A9621C1948700AB9499 /* trunkCar.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -119,7 +139,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				01495A9321C1941100AB9499 /* protocols.swift in Sources */,
+				01495A9121C193DA00AB9499 /* enums.swift in Sources */,
 				01495A8921C1934C00AB9499 /* main.swift in Sources */,
+				01495A9721C1948700AB9499 /* trunkCar.swift in Sources */,
+				01495A9521C1945000AB9499 /* sportCar.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
